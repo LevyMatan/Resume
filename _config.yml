@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Matan Levy Resume"
+description: "A young traveler looking for adventure."
 
 # Build settings
 markdown: kramdown
@@ -10,12 +10,12 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "GitHub Teacher"
-resume_title:                   "Professional Trainer"
-resume_contact_email:           "services@github.com"
-resume_contact_telephone:       "1-(877)-448-4820"
-resume_contact_address:         "San Francisco, California"
-resume_header_contact_info: "San Francisco, California | 1-(877)-448-4820 | services@github.com"
+resume_name:                    "Young Traveler"
+resume_title:                   "Professional Student"
+resume_contact_email:           "levymatanlevy@gmail.com"
+resume_contact_telephone:       "+972-053-805-8118"
+resume_contact_address:         "Hamalot 11, Herzeliya, Israel"
+resume_header_contact_info: "Herzeliya, Israel | +972-(0)53-805-8118 | levymatanlevy@gmail.com"
 resume_header_intro: "<p>Charting the knowledge of the Internet, just like Galileo charted the stars.</p>"
 
 
@@ -29,9 +29,9 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
+resume_section_projects:        false
+resume_section_skills:          false
+resume_section_recognition:     false
 resume_section_links:           true
 resume_section_associations:    true
 # resume_section_interests:       true
@@ -39,13 +39,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
+  resume_github_url:            "https://github.com/LevyMatan"
+  #resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_facebook_url:          "https://www.facebook.com/levymatanlevy"
+  #resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_instagram_url:         "https://www.instagram.com/levymatanlevy/?hl=en"
+  resume_website_url:           "http://LevyMatan.github.com"
 resume_print_social_links:      true
 
 # Design settings
