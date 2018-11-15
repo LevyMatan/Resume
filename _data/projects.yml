@@ -2,15 +2,15 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # probot
-- project: probot
-  role: Contributor
-  duration: 2016 &mdash; Present
-  url: "https://github.com/probot/probot"
-  description: A framework for building GitHub Apps to automate and improve your workflow
+- project: BGU smartLot
+  role: End to end execution
+  duration: 2016
+  url: "https://youtu.be/TTb177Aipgo"
+  description: Final project of academic course: "Digital Computers Structure". In the project Eliraz Orfaig and I implemented a model of a smart parking lot based on Motorola MC68HC11 microcontroller. In the project we programmed the microcontroller using C language and assembly, got familiar with basic periphrial componentes (e.g. interrupts controller).  
 
 # GitHub Classroom
-- project: GitHub Classroom
-  role: Contributor
-  duration: 2015 &mdash; Present
-  url: "https://github.com/education/classroom"
-  description: GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.
+- project: Object Tracking in Video
+  role: End to end execution
+  duration: 2017
+  url: "https://youtu.be/wUvqdYSA2kc"
+  description: Final project of academic course: "Image Processing". Daniel Kogan, Ziv Meir and I implemented a custom object tracking which was able to perform in real-time, live video feed from the laptop camera (low resolution) or on a captured video file. 
