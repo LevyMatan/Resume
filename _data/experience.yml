@@ -1,10 +1,16 @@
 # Jobs
+
+# Electrical Engineer
+- company: Apple
+  position: PHY firmware
+  duration: Januaray, 2019 - Now
+  summary: Realtime enviorment development to control PHY layer of communication chip. High volume product code maintance.
+
 # Electrical Engineer
 - company: ELTA
   position: Student position
   duration: October, 2016 - August 2017
   summary: Part of signal compressing project which converted the original signal to more efficient representation. •	The project significantly reduced the network capacity which was required for the signal transmission
-
 
 # Electrical Enginner
 - company: Intel
