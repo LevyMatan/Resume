@@ -1,5 +1,6 @@
 ## Your GitHub Learning Lab Repository for Managing Merge Conflicts
 
+![LINK TO RESUME](https://levymatan.github.io/Resume/)
 Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
 
 Oh! I haven't introduced myself...
