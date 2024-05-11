@@ -4,25 +4,28 @@
 - company: Nvidia 
   position: Senior Engineer (PHY firmware)
   duration: August, 2021 - Now
-  summary: •	InfiniBand high speed low latency protocol for network switches
-•	Built firmware FSMs to support linkup flows and link maintenance
-•	Develop monitor for hardware event driven flows
-•	Collaborated with cross-functional teams to deliver high-quality products on time.
+  summary: |
+    •	InfiniBand high speed low latency protocol for network switches 
+    •	Built firmware FSMs to support linkup flows and link maintenance
+    •	Develop monitor for hardware event driven flows
+    •	Collaborated with cross-functional teams to deliver high-quality products on time.
 
   
 # Electrical Engineer
 - company: Apple
   position: PHY firmware
   duration: January, 2019 - August, 2021
-  summary: •	WiFi firmware with shared analog resources 
-•	Implemented analog and digital calibrations to improve performance and accuracy
+  summary: |
+    •	WiFi firmware with shared analog resources 
+    •	Implemented analog and digital calibrations to improve performance and accuracy
 
 # Electrical Engineer
 - company: ELTA
   position: Student position
   duration: October, 2016 - August 2017
-  summary: •	Part of a signal compressing project which converted the original signal to a more efficient representation.
-•	The project significantly reduced the network capacity which was required for the signal transmission
+  summary: |
+    •	Part of a signal compressing project which converted the original signal to a more efficient representation.
+    •	The project significantly reduced the network capacity which was required for the signal transmission
 
 # Electrical Enginner
 - company: Intel
