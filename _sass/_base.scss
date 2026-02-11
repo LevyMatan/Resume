@@ -7,7 +7,24 @@
 }
 
 html {
-  background: $white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+      radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+  }
 }
 
 body{
@@ -15,6 +32,52 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
+
+// Keyframe animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+// Scroll-triggered animations
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .wrapper:before,
@@ -22,9 +85,37 @@ body{
 .wrapper:after { clear: both; }
 .wrapper {
   max-width: 728px;
-  padding: 0 24px;
-  margin: 0 auto;
+  padding: 40px 48px;
+  margin: 40px auto;
   zoom: 1;
+  background: $white;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.8s ease-out;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, $primary-color, $secondary-color);
+    border-radius: 22px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+
+    &::before {
+      opacity: 0.1;
+    }
+  }
 }
 
 // clearfix (now called group,
@@ -35,12 +126,12 @@ body{
 .group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
 
 ::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
+    background: rgba(37, 99, 235, 0.3);
+    color: #1e40af;
     text-shadow: none;
 }
 ::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
+    background: rgba(37, 99, 235, 0.3);
+    color: #1e40af;
     text-shadow: none;
 }
